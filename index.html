@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  </head>
+    <style>
+    * {
+    box-sizing: border-box;
+    }
+
+    html {
+    margin: 0px 200px;
+    font-family: Sans-serif, "Open Sans"; 
+    color: grey;
+    }
+
+    .header {
+    text-align: center;
+    padding: 14px;
+    font-size: 22px;
+    }
+    p {
+    margin-top: 0px;
+    font-size: 1.4em;
+    }
+    .flourish-bar-chart-race {
+        width: 50%
+    }
+    #chart-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    @media screen and (max-width: 800px) {
+    h1 {
+        font-size: 22px;
+    }
+    p {
+        font-size: 16px;
+    }
+    img.responsive {
+        width: 100% !important;
+        height: auto !important;
+    }
+    }
+
+    </style>
+    <body>
+
+    <!-- Header -->
+    <div class="header">
+    <h1>Blockchain as a marketing channel</h1>
+    <h3>Lindsey and Casey</h3>
+    </div>
+
+    <div>
+        <h2> 
+            Our fundamental belief is that blockchain is driven by three factors: Value accrual, Community, Redistribution of Power. The weights of these factors have changed greatly over the past decade. 
+            In our opinion, here is how things have played out. 
+        </h2>
+        <div id='chart-container'>
+            <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/5564012">
+                <script src="https://public.flourish.studio/resources/embed.js"></script>
+            </div>
+        </div>
+    </div>
+
+    </body>
+</html>
